@@ -1,5 +1,3 @@
-// send_arp.h
-
 #pragma once
 
 #include <cstdint>
