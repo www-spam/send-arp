@@ -194,7 +194,7 @@ sender에게 보내는 위조된 패킷이다.
 ### knowledge
 
 | 구성 요소 | 크기 (bytes) |  
-| --- | --- | --- |
+| --- | --- | 
 | Ethernet Header | 14 bytes |  
 | ARP Header | 28 bytes |  
 | 합계 | **42 bytes** |
