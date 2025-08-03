@@ -58,7 +58,7 @@ struct eth_hdr_t {
 
 MAC 주소는 6바이트이므로 `uint8_t[6]`로 표현
 
-ARP를 위해 type 필드는 0x0806으로 설정된다. `#pragma pack(1)`은 **패딩 없이 구조체를 메모리에 붙여 저장**하도록 한다.(네트워크 패킷은 바이트 단위로 정해진 형식이기 때문)
+ARP를 위해 type 필드는 0x0806으로 설정된다. `#pragma pack(1)`은 패딩 없이 구조체를 메모리에 붙여 저장하도록 한다.(네트워크 패킷은 바이트 단위로 정해진 형식이기 때문)
 
 ### ARP 헤더 (`arp_hdr_t`)
 
@@ -77,9 +77,9 @@ struct arp_hdr_t {
 
 ```
 
-**`op` 필드로 request/reply를 구분한다.** 
+`op` 필드로 request/reply를 구분한다.
 
-### 3. send-arp.cpp
+### send-arp.cpp
 
 ### `get_mac()`
 
