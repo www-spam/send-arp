@@ -207,7 +207,7 @@ sender에게 보내는 위조된 패킷이다.
 
 https://github.com/YOGYUI/Sniffets/tree/main/linux_get_mac_address/src
 
-**GPT, Claude**
+GPT, Claude
 
 https://chatgpt.com/
 
