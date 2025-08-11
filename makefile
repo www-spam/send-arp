@@ -3,7 +3,7 @@ LDLIBS=-lpcap
 all: send-arp
 
 
-main.o:  send-arp.h sen-arp.cpp
+main.o:  send-arp.h send-arp.cpp
 
 
 
